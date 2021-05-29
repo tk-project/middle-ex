@@ -292,6 +292,9 @@ body {
   padding-left: 69px;
   background: #978F10;
   position: relative; }
+  @media screen and (max-width: 767px) {
+    .btn {
+      margin-right: 16px; } }
   @media screen and (max-width: 450px) {
     .btn {
       padding-right: 17px;
@@ -322,6 +325,15 @@ body {
       .btn::before {
         width: 17px;
         height: 17px; } }
+
+@media screen and (max-width: 767px) {
+  .hamberger__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 
 .modal {
   display: none;
