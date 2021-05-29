@@ -42,9 +42,9 @@ $(function () {
 	// ロゴを黒に
 	jQuery(window).on('scroll', function () {
 	 if (jQuery(this).scrollTop()) { 
-		 jQuery('.top__logo').attr('src', '/img/sub-header-logo.png');
+		 jQuery('.top__logo').attr('src', 'img/sub-header-logo.png');
 	 } else {
-			jQuery('.top__logo').attr('src', '/img/top-header-logo.png');
+			jQuery('.top__logo').attr('src', 'img/top-header-logo.png');
 		}
 	});
 
