@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="日本古来の素材と現代的表現を併せ持つ温泉旅館、石井花壇。
+  伝統的「和」の息づく空間で、至極のひとときをお過ごしください。">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/x-icon" href="img/logo02.png">
+  <title>石井花壇 | 温海温泉旅館【公式サイト】</title>
+   <!-- flatpickr -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   <!-- swiper -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+ <!-- aos.js -->
+ <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="sub__top">
+      <!-- ハンバーガーメニュー -->
+      <nav class="hamburger__menu">
+        <ul class="hamburger__menu_list">
+          <li class="hamburger__menu_item"><a href="oheya.html" class="hamburger__menu_link">お部屋</a></li>
+          <li class="hamburger__menu_item"><a href="menu.html" class="hamburger__menu_link">お料理</a></li>
+          <li class="hamburger__menu_item"><a href="onsen.html" class="hamburger__menu_link">温泉</a></li>
+        </ul>
+      </nav>
+      <!-- ハンバーガーメニュー -->
+      <div class="top-sub__wrapper outer">
+        <div class="top__menu_container">
+          <a class="logo__link" href="index.html">
+            <figure>
+                <img src="img/sub-header-logo.png" alt="ロゴ" class="sub-top__logo">
+            </figure>
+          </a>
+          <nav class="nav">
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a href="oheya.html" class="nav__link-sub">お部屋</a><!-- /.nav__link -->
+              </li><!-- /.nav__item -->
+              <li class="nav__item">
+                <a href="menu.html" class="nav__link-sub">お料理</a><!-- /.nav__link -->
+              </li><!-- /.nav__item -->
+              <li class="nav__item">
+                <a href="onsen.html" class="nav__link-sub">温泉</a><!-- /.nav__link -->
+              </li><!-- /.nav__item -->
+            </ul><!-- /.nav__menu -->
+          </nav><!-- /.nav -->
+      </div><!-- /.top__menu_container -->
+        <div class="contact__btn contact__btn_nav">
+          <a class="btn js-modal-open" href="">宿泊予約</a><!-- /.btn -->
+        </div><!-- /.contact__btn -->
+        <!-- ハンバーガーメニューボタン -->
+        <div class="btn-trigger" id="btn01">
+          <span class="btn-trigger-bar btn-trigger-bar-sub"></span>
+          <span class="btn-trigger-bar btn-trigger-bar-sub"></span>
+          <span class="btn-trigger-bar btn-trigger-bar-sub"></span>
+        </div>
+      </div><!-- /.top__wrapper -->
+      <!-- モーダル -->
+      <div class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+            <form id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSda1gT_iIMkrZPBQFI5I0TyIewU-H4eXUbNb8wZXiMZDcGrMQ/formResponse" method="post" class="form modal__content">
+              <a class="js-modal-close" href="">
+                <img src="img/close.png" alt="">
+              </a>
+              <p class="form__title">
+                宿泊予約
+              </p><!-- /.form__title -->
+              <div class="label__content">
+                <label class="label">お名前</label><!-- /.label -->
+              </div><!-- /.label__content -->
+              <div class="input__content">
+                <input class="form-text" type="text" name="entry.965949065" placeholder=" 例：石井正悟" required>
+              </div><!-- /.input__content -->
+              <div class="label__content">
+                <label class="label">メールアドレス</label><!-- /.label -->
+              </div><!-- /.label__content -->
+              <div class="input__content">
+                  <input class="form-text" type="email" name="entry.1719099236" placeholder="例：Example@example.com" required>
+                </div><!-- /.input__content -->
+              <div class="label__content">
+              <label class="label">ご希望プラン（空いているプランのみ表示されます）</label><!-- /.label -->
+              </div><!-- /.label__content -->
+              <div class="input__content">
+                  <select class="select-box">
+                      <option class="option-active">プランを選択してください</option>
+                      <option>セレクトB</option>
+                      <option>セレクトC</option>
+                  </select>
+              </div><!-- /.input__content -->
+              <div class="label__content">
+                <label class="label">日時選択</label><!-- /.label -->
+              </div><!-- /.label__content -->
+              <div class="input__content">
+                <input class="form-text" type="text" id="flatpickr" placeholder="日時を選択してください">
+              </div><!-- /.input__content -->
+              <div class="submit-btn-content">
+                <p class="end-message">お問い合わせありがとうございました</p>
+                <p class="false-message">送信失敗です</p>
+                  <input class="submit-btn" id="submit-link" type="submit" value="送信する">
+              </div><!-- /.submit-btn-content -->
+          </form>
+    </div><!--modal-->
+    </div><!-- top -->
+    <div class="sub-mv onsen-mv">
+      <h1 class="sub-mv__copy effect-fade">
+        温泉
+      </h1><!-- /.sub__copy -->
+    </div><!-- /.mv -->
+  </header>
+  <main>
+    <div class="inner">
+      <div class="sub__main">
+        <nav class="breadcrumb">
+          <ul class="breadcrumb__menu">
+            <li class="breadcrumb__item">
+              <a href="index.html" class="breadcrumb__link">
+                トップ
+              </a><!-- /.breadcrumb__link -->
+            </li><!-- /.breadcrumb__item -->
+            <li class="breadcrumb__item">
+              <a href="#" class="breadcrumb__link">
+                温泉
+              </a><!-- /.breadcrumb__link -->
+            </li><!-- /.breadcrumb__item -->
+          </ul><!-- /.breadcrumb__menu -->
+        </nav><!-- /.breadcrumb -->
+        <div class="sub__desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          心も身体も癒やす汐の温泉。<br>
+          湯あたりしにくく、赤ちゃんから年配の方までどなたでもゆっくりと安心して入っていただけます。<br>
+          柔らかく優しい湯にじっくりと漬かれば、心身共にリラックスできます。
+        </div><!-- /.sub__desc -->
+        <div class="sub__container">
+          <div class="sub__contents">
+            <figure class="sub__contents_img" data-aos="fade" data-aos-duration="800" data-aos-delay="500" data-aos-easing="easeOutBack">
+              <img src="img/onsen01.jpg" alt="貸し切り露天風呂「雲居の湯」">
+            </figure><!-- /sub__contents_img -->
+            <div class="sub__contents_box">
+              <figure class="sub__contents_img-sp" data-aos="fade" data-aos-duration="800" data-aos-delay="500" data-aos-easing="easeOutBack">
+                <img src="img/onsen01.jpg" alt="貸し切り露天風呂「雲居の湯」">
+              </figure><!-- /.sub__contents_img-sp -->
+              <div class="sub__contents_box-inner">
+                <h2 class="sub__contents_title" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" data-aos-easing="easeOutBack">
+                  貸し切り露天風呂「雲居の湯」
+                </h2><!-- /.sub__contents_title -->
+                <p class="sub__contents_txt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-easing="easeOutBack">
+                  弱酸性の湯質が優しく肌を包み込むような心地よさ<br>
+                  最上階の露天風呂「雲居の湯」では、湯冷めしにくい食塩泉を<br>
+                  熱海の町並みを遠方に望みながら・・・
+                </p><!-- /.sub__contents_txt -->
+              </div><!-- /.sub__contents_box-inner -->
+            </div><!-- /.sub__contents_box -->
+          </div><!-- /.sub__contents -->
+          <div class="sub__contents">
+            <figure class="sub__contents_img" data-aos="fade" data-aos-duration="800" data-aos-delay="500" data-aos-easing="easeOutBack">
+              <img src="img/onsen02.jpg" alt="美肌を促す乳白色の硫黄泉を">
+            </figure><!-- /sub__contents_img -->
+            <div class="sub__contents_box">
+              <figure class="sub__contents_img-sp" data-aos="fade" data-aos-duration="800" data-aos-delay="500" data-aos-easing="easeOutBack">
+                <img src="img/onsen02.jpg" alt="美肌を促す乳白色の硫黄泉を">
+              </figure><!-- /.sub__contents_img-sp -->
+              <div class="sub__contents_box-inner">
+                <h2 class="sub__contents_title" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" data-aos-easing="easeOutBack">
+                  美肌を促す乳白色の硫黄泉を
+                </h2><!-- /.sub__contents_title -->
+                <p class="sub__contents_txt" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" data-aos-easing="easeOutBack">
+                  まじりっけなしの白いにごり湯。鳥海山から引いた酸性の強い硫酸塩泉を、<br>
+                  たっぷりと掛け流しています。<br>
+                  四季の移り変わりを、天然温泉の湯に浸りながら味わってください。
+                </p><!-- /.sub__contents_txt -->
+              </div><!-- /.sub__contents_box-inner -->
+            </div><!-- /.sub__contents_box -->
+          </div><!-- /.sub__contents -->
+        </div><!-- /.sub__container -->
+        <div class="efficacy__wrap">
+          <div class="efficacy">
+            <h2 class="efficacy__title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="easeOutBack">
+              温泉の効能
+            </h2><!-- /.efficacy__title -->
+
+            <div class="table_wrapper">
+              <table data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="easeOutBack">
+                <tr>
+                  <th>効能</th>
+                  <td>神経痛・慢性関節リューマチ・腰痛・冷え性・慢性婦人病・うちみなど</td>
+                </tr>
+                <tr>
+                  <th>泉質</th>
+                  <td>ナトリウム・カルシウム-塩化物泉</td>
+                </tr>
+                <tr>
+                  <th>飲用効果</th>
+                  <td>弱塩化物泉は肌にやわらかなため、高齢者や病後の回復期によく、飲用すれば慢性便秘や慢性消化
+                    器病に効果があります。</td>
+                </tr>
+              </table>
+            </div><!-- /.table_wrapper -->
+          </div><!-- /.efficacy -->
+        </div><!-- /.efficacy__wrap -->
+      </div><!-- /.sub__main -->
+    </div><!-- /.inner -->
+  </main>
+  <footer>
+    <div class="footer__bg">
+      <nav class="footer__nav">
+        <ul class="footer__nav_menu">
+          <li class="footer__nav_item">
+            <a href="oheya.html" class="footer__nav_link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="easeOutBack">
+              お部屋
+            </a><!-- /.footer__nav_link -->
+          </li><!-- /.footer__nav_item -->
+          <li class="footer__nav_item">
+            <a href="menu.html" class="footer__nav_link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="easeOutBack">
+              お料理
+            </a><!-- /.footer__nav_link -->
+          </li><!-- /.footer__nav_item -->
+          <li class="footer__nav_item">
+            <a href="#" class="footer__nav_link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100" data-aos-easing="easeOutBack">
+              温泉
+            </a><!-- /.footer__nav_link -->
+          </li><!-- /.footer__nav_item -->
+        </ul><!-- /.footer__nav_menu -->
+      </nav><!-- /.footer__nav -->
+      <figure class="footer__logo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="easeOutBack">
+        <a href="index.html" class="footer__logo_link">
+          <img src="img/footer-logo.png" alt="石井花壇">
+        </a><!-- /.footer__logo_link -->
+      </figure><!-- /.footer__logo -->
+    <div class="footer__access" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="easeOutBack">
+      <p class="footer__access_post">〒000-0000</p><!-- /.footer__access_post -->
+      <p class="footer__access_address">山形県鶴岡市xxxxxxxxxxx</p><!-- /.footer__access_address -->
+    </div><!-- /.footer__access -->
+    <div class="footer__num" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="easeOutBack">
+      <p class="footer__num_phone">TEL.000-0000-0000</p><!-- /.footer__num_phone -->
+      <p class="footer__num_fax">FAX.00-0000-0000</p><!-- /.footer__num_fax -->
+    </div><!-- /.footer__num -->
+  </div><!-- /.footer__bg -->
+    <p class="copyright_container">
+      <small class="copyright">
+        Copyright &copy; 石井花壇 All Rights Reserved.
+      </small><!-- /.copyright -->
+    </p><!-- /.copyright_container -->
+  </footer>
+  <script>
+  flatpickr("#flatpickr", {
+    mode: "multiple",
+    locale:"ja",
+    minDate:"today"
+    });
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
