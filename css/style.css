@@ -282,6 +282,7 @@ body {
   color: #000; }
 
 .btn {
+  border-radius: 0;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
@@ -474,7 +475,7 @@ body {
   padding-right: 65px;
   padding-left: 65px;
   background-color: #fff;
-  border-radius: none; }
+  border-radius: 0; }
   .submit-btn:hover, .submit-btn:focus {
     outline: none; }
   .submit-btn::-moz-foucus-inner {
