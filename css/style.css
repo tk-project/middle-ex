@@ -433,7 +433,8 @@ body {
   appearance: none;
   border: 1px solid rgba(0, 0, 0, 0.16);
   border-radius: 0;
-  color: inherit;
+  color: #797878;
+  background-color: #fff;
   cursor: pointer;
   font-family: inherit;
   font-size: 1.4rem;
