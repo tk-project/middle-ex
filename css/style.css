@@ -645,7 +645,9 @@ body {
 .service {
   max-width: 1920px;
   padding-top: 106px;
-  padding-bottom: 76px; }
+  padding-bottom: 76px;
+  margin-left: auto;
+  margin-right: auto; }
   .service__contents {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -694,7 +696,7 @@ body {
       .service__desc_box {
         padding: 0;
         color: #fff;
-        text-shadow: 2px 2px 2px #333;
+        text-shadow: 2px 2px 2px #000;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -735,7 +737,7 @@ body {
       color: #fff; }
     @media screen and (max-width: 1179px) {
       .service__btn {
-        text-shadow: 2px 2px 2px #333;
+        text-shadow: 2px 2px 2px #000;
         -webkit-box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.2);
                 box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.2); } }
 
